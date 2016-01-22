@@ -6,6 +6,13 @@
 
 
 
+function tripleEachElement(numbers) {
+	var output = [];
+	for (var i = 0; i < numbers.length; i++) {
+		output.push(numbers[i] * 3)
+	}
+	return output;
+}
 
 
 
